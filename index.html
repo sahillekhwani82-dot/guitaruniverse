@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>My Guitar Universe</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<h1 class="logo">🎸 Guitar Universe</h1>
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#videos">Videos</a>
+<a href="#about">About</a>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<h2 class="animate">A Home For Every Note I Play</h2>
+
+<p class="animate">Played • Felt • Remembered</p>
+
+<button onclick="scrollToVideos()">Play My Recordings</button>
+
+
+</section>
+
+<section id="videos" class="videos">
+
+<h2 class="animate">My Guitar Covers</h2>
+
+<div class="video-grid" id="videoGrid"></div>
+
+<div class="video-card animate">
+
+<div class="video-card">
+
+<div class="video-card">
+
+    <div class="filter-buttons">
+
+<button onclick="filterVideos('all')">All</button>
+<button onclick="filterVideos('hindi')">Hindi</button>
+<button onclick="filterVideos('english')">English</button>
+<button onclick="filterVideos('punjabi')">Punjabi</button>
+<button onclick="filterVideos('90s')">90s</button>
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+<!-- <p>Guitar Cover</p> -->
+
+</div>
+
+<div class="video-card animate">
+
+<section class="featured-video">
+
+<h2>Sit with this one for a moment</h2>
+
+<div class="featured-wrapper">
+<iframe
+src="https://drive.google.com/file/d/1Mkqln0Fc0MWFrPBWwyrhy6PVaH3cmZIE/preview"
+allow="autoplay">
+</iframe>
+</div>
+
+</section>
+
+<!-- <p>Guitar Cover</p> -->
+
+</div>
+
+</div>
+
+</section>
+<section class="suggestions">
+
+<h2>Suggest a Song 🎸</h2>
+
+<input type="text" id="suggestionInput" placeholder="Enter song name...">
+
+<button onclick="addSuggestion()">Submit</button>
+
+<ul id="suggestionList"></ul>
+
+</section>
+
+<section id="about" class="about animate">
+
+<h2>About Me</h2>
+
+<p>
+I play acoustic guitar and share my favorite song covers on this website.
+
+
+
+</p>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Guitar Universe</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
